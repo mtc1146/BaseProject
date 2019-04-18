@@ -104,6 +104,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE066FA122688C18003F480B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		EE89908322642D0D00CD8E66 = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +141,7 @@
 				EE8990C42266BEF700CD8E66 /* Main */,
 				EE8990C32266BEEA00CD8E66 /* Class */,
 				EE8990C22266BE8C00CD8E66 /* Common */,
-				EE8990C12266BE4500CD8E66 /* ThirdParty */,
+				EE8990C12266BE4500CD8E66 /* Vendors */,
 				EE89909522642D0D00CD8E66 /* Main.storyboard */,
 				EE89909A22642D0F00CD8E66 /* LaunchScreen.storyboard */,
 			);
@@ -159,16 +166,17 @@
 			path = "练习工程UITests";
 			sourceTree = "<group>";
 		};
-		EE8990C12266BE4500CD8E66 /* ThirdParty */ = {
+		EE8990C12266BE4500CD8E66 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ThirdParty;
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 		EE8990C22266BE8C00CD8E66 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EE066FA122688C18003F480B /* Category */,
 				EE8990CD2266C3D200CD8E66 /* Macros */,
 			);
 			path = Common;
